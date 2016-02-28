@@ -1,0 +1,4 @@
+# Remove Static IP
+Get-AzureVM -ServiceName p1m1azuredc -Name AzureDC01 `
+| Remove-AzureStaticVNetIP `
+| Update-AzureVM

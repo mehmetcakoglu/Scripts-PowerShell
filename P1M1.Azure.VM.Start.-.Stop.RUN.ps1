@@ -1,0 +1,1 @@
+﻿& '.\P1M1 Azure VM Start - Stop.ps1' -stop -azureUserName 'evren.atasayar@p1m1.com' -azureUserPassword '1217g1217' -vmNamePattern 'ftp*' -subscriptionName 'P1M1 Research And Development' -publishSettingsFileFullPath 'P1M1-10-6-2015-credentials.publishsettings'

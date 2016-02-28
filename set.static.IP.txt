@@ -1,0 +1,2 @@
+#set static IP
+Get-AzureVM -ServiceName p1m1azuredc -Name AzureDC01 | Set-AzureStaticVNetIP -IPAddress 10.10.0.4 | Update-AzureVM
